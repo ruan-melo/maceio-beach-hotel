@@ -1,0 +1,73 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+* a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+h1{
+    font-size: 34px;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-weight: 300;
+}
+
+
+.contributions-container{
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: fit-content;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.contributions caption{
+    background: black;
+    color: white;
+    padding: 10px;
+    
+}
+
+.contributions tbody{
+    font-size: 14px;
+}
+
+.contributions tr th{
+    padding: 15px;
+    font-weight: bold;
+}
+
+.contributions tr td{
+    /* border: 1px solid orange; */
+    text-align: center;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.contributions tr td a{
+    text-decoration: underline;
+}
+
+
+tbody tr.even {
+    background: #EEEEEE;
+  }
+
+
+tbody tr.odd {
+    background: white;
+}
+
+.project-info{
+    margin-left: 25px;
+}
+
+.project-info a:hover{
+    text-decoration: underline;
+}
+

@@ -1,0 +1,66 @@
+*{
+    border: 0px;
+    margin: 0px;
+}
+html{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+* a{
+    text-decoration: none;
+    color: #333;
+}
+
+img#mainimage{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 100px;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0px 150px 0px;
+    padding: 50px;
+}
+address h1{
+    font-size: 40px;
+    font-weight: 350;
+}
+address span{
+    font-size: 15px;
+    line-height: 1.8em;
+}
+
+form{
+    margin-left: 30px;
+}
+form input{
+    border-bottom: solid black 1px;
+    margin: 0px 0px 10px;
+    height: 50px;
+    width: 400px;
+    outline: 0;
+    padding: 0px;
+}
+form textarea{
+    border-bottom: solid black 1px;
+    margin: 0px 0px 30px;
+    height: 80px;
+    width: 400px;
+    outline: 0;
+    padding: 0px;
+}
+form button{
+    color: white;
+    padding: 0px;
+    background-color: black;
+    height: 60px;
+    width: 180px;
+    font: inherit;
+    border: none;
+    margin-left: 220px;
+    box-shadow: 4px 4px 10px gray;
+    cursor: pointer;
+}

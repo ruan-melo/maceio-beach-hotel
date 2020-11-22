@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+* a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+* { margin: 0px; }
+
+header figure {
+	position: relative;
+}
+
+header figure figcaption {
+	position: absolute;
+	top: 0px;
+	padding: 150px;
+	color: white;
+}
+
+header h1 { font-size: 15pt; text-align: center;}
+header h2 { font-size: 20pt; 
+			font-family: 'Open Sans', sans-serif;
+			text-align: center;
+}
+header p { font-size: 15pt; 
+		   font-family: 'Cormorant Infant', serif;
+		   text-align: center;
+}
+
+header img{
+	margin-bottom:0%;
+	width: 100%;
+	height: 100%;
+}
+
+* a{
+    text-decoration: none;
+    color: #333;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.room {
+	position: relative;
+	height: 600px;
+	width: 80%;
+
+	box-sizing: border-box;
+
+	margin: auto auto auto auto;
+	text-align: justify;
+
+	transition: 1s;
+}
+
+section {
+	position: relative;
+	top: -125px;
+}
+
+div img {
+	transition: transform .5s ease;
+}
+
+div#room1 {
+	grid-column: 1/2;
+	grid-row: 1;
+}
+div#room2 {
+	grid-column: 2/2;
+	grid-row: 2;
+}
+div#room3 {
+	grid-column: 1/2;
+	grid-row: 3;
+}
+div#room4 {
+	grid-column: 2/2;
+	grid-row: 4;
+}
+div#room5 {
+	grid-column: 1/2;
+	grid-row: 5;
+}
+
+section div:hover {
+	background-color: grey;
+	color: white;
+	height: 650px;
+}
+
+section div:hover img {
+	transform: scale(1.1);
+}
+
+section div:hover figure figcaption {
+	position: absolute;
+	top: 450px;
+}
+
+div figure {
+	position: absolute;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+div figure img {
+	width: 100%;
+	height: 100%;
+}
+
+div figure figcaption{
+	font-family: 'Cormorant Infant', serif;
+	font-size: 15pt;
+
+	padding: 10px;
+}
+
+div figure figcaption h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20pt;
+
+	text-align: center;
+}
+
+div figure figcaption span {
+	font-family: 'Cormorant Infant', serif;
+	font-size: 15pt;
+}
+
