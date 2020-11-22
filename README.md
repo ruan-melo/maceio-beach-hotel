@@ -1,5 +1,5 @@
 # Maceió Beach Hotel
-Site criado durante o projeto da disciplina de Programação Web.
+Site criado durante o projeto da disciplina de Programação Web. https://ruan-melo.github.io/maceio-beach-hotel/
 
 ## Integrantes
 
