@@ -23,6 +23,7 @@ main{
     grid-template-columns: repeat(2,1fr);
     margin: 0px 150px 0px;
     padding: 50px;
+    height: 460px;
 }
 address h1{
     font-size: 40px;
@@ -37,6 +38,7 @@ form{
     margin-left: 30px;
 }
 form input{
+    font: inherit;
     border-bottom: solid black 1px;
     margin: 0px 0px 10px;
     height: 50px;
@@ -45,12 +47,22 @@ form input{
     padding: 0px;
 }
 form textarea{
+    font: inherit;
     border-bottom: solid black 1px;
-    margin: 0px 0px 30px;
-    height: 80px;
+    margin: 0px 0px 10px;
+    height: 100px;
     width: 400px;
     outline: 0;
     padding: 0px;
+}
+form input#checkbox{
+    height: unset;
+    width: unset;
+    border: unset;
+    margin: 0px 0px 25px;
+}
+form label{
+    font-size: 12px;
 }
 form button{
     color: white;
@@ -61,6 +73,11 @@ form button{
     font: inherit;
     border: none;
     margin-left: 220px;
-    box-shadow: 4px 4px 10px gray;
+    box-shadow: 4px 8px 10px gray;
     cursor: pointer;
+}
+form button:hover{
+    margin-top: 4px;
+    box-shadow: 2px 4px 10px gray;
+    transition: 0.25s;
 }

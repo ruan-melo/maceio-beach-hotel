@@ -24,6 +24,12 @@ h1{
     width: fit-content;
     max-height: 300px;
     overflow-y: scroll;
+    margin: auto auto;
+}
+
+.contributions{
+    width: 400px;
+    
 }
 
 .contributions caption{

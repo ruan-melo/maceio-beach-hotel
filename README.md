@@ -14,18 +14,18 @@ Natália
 Ruan
 
 ## Alterações Atendidas
-1) Versionar o projeto utilizando a tecnologia git e utilizar o GitHub para hospedar o repositório. (Feito)
+1) Corrigir qualquer problema das entregas anteriores apresenta pelos professores (OK)
 
-2) Habilitar o GitHub Pages para apresentar a página do projeto (Feito).
-3) Acrescentar uma página "sobre.html" contendo link para o repositório no GitHub e o nome dos integrantes da equipe, ou em outra página que a equipe julgue mais adequado. (Página Sobre criada)
-4) Criar uma página (ou atualizar) que contenha uma tabela que utiliza os seguintes recursos: (Feito na página Sobre)
+2)
+2.1) Crie um formulário que seja significativo no contexto do site do projeto. Este form deve conter no mínimo sete tipos diferentes de elementos, sejam eles diferentes tipos de Inputs ou outros elementos de formulário (Página de Contato - /contato).
 
-    4.1) título da tabela
+2.2) Utilize as Media Queries para adaptar as páginas do site para dispositivos com tamanhos de telas diferentes. No mínimo três páginas devem utilizar as media queries (Todas as páginas usam no header para fazer o menu responsivo).
 
-    4.2) cabeçalho das colunas
+3) Criar um arquivo Markdown (.md) chamado README.MD na raiz do repositório que contenha :
 
-    4.3) mesclagem de linhas ou colunas
+3.1) Resumo indicando onde os conteúdos do item (2) podem ser encontrado pelos professores (OK)
 
-    4.4) linha "zebradas"
+3.2) Caso necessário ou pertinente, adicionem comentários sobre decisões para construção do site, inclusive comentando as sugestões das avaliações anterior. 
+    - Foi sugerido que o tamanho da tabela na página /sobre fosse aumentado e ela estivesse centralizada. (OK)
 
-    4.5) Pelo menos uma página com background personalizado com imagem de fundo.
+3.3) Integrantes da equipe (OK)
