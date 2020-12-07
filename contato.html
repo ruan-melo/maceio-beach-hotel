@@ -80,12 +80,12 @@
             <span>Telefone: +55 (82) 0000-0000</span><br>
             <span>coxinha123@gmail.com </span>
         </address>
-        <form>
+        <form action="" id="formulario" method="POST" name="formulario">
             <div>
                 <input type="text" id="nome" name="Nome" placeholder="Nome" />
             </div>
             <div>
-                <input type="email" id="email" name="email" placeholder="O email"/>
+                <input type="email" id="email" name="email" placeholder="E-mail" />
             </div>
             <div>
                 <input type="password" id="senha" name="senha" placeholder="Senha">
@@ -94,15 +94,78 @@
                 <input type="tel" id="tel" name="telefone" placeholder="Telefone para contato">
             </div>
             <div>
-                <textarea id="msg" placeholder="Mensagem"></textarea>
+                <textarea id="msg" name="mensagem"placeholder="Mensagem"></textarea>
             </div>
             <div>
                 <input type="checkbox" id="checkbox">
                 <label for="checkbox">Eu concordo em enviar meus dados ao suporte do hotel</label>
+                
             </div>
             <div class="button">
-                <button>Enviar</button>
+                <button type="button" onclick="validar()">Enviar</button>
             </div>
+
+
+            <script>
+                function validar (){
+                    event.preventDefault();
+
+                    var f = formulario.nome;
+                    var nome = document.getElementById("nome");
+                    var email = document.getElementById("email");
+                    var senha = document.getElementById("senha");
+                    var telefone = document.getElementById("tel");
+                    var mensagem = document.getElementById("msg");
+                    var ckeckbox = document.getElementById("checkbox");
+                    
+    
+                    if (f.value == ""){
+                        alert ("Mensagem inválida");
+                        f.focus();
+                        return;
+                    }
+                    
+                    if (nome.value == ""){
+                        alert ("Nome não informado.");
+                        nome.focus();
+                    }
+    
+                    if (email.value == ""){
+                        alert ("E-mail não informado.");
+                        email.focus();
+                        return;
+                    }
+
+                    if (senha.value == ""){
+                        alert ("Senha não informada.");
+                        senha.focus();
+                        return;
+                    }
+                    
+                    if (telefone.value == ""){
+                        alert ("Telefone não informado.")
+                        telefone.focus();
+                        return;
+                    }
+
+                    if (msg.value == ""){
+                        alert ("Campo de mensagem vazio.")
+                        msg.focus();
+                        return;
+                    }
+
+                    if (!checkbox.checked){
+                        alert ("É necessário concordar em enviar os dados fornecidos.");
+                        return;
+                    }
+    
+    
+                    alert ("Mensagem enviada!");
+                }
+            </script>
+
+
+
             
         </form>
         <hr>
