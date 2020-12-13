@@ -39,35 +39,28 @@ form{
 }
 form input{
     font: inherit;
-    border-bottom: solid black 1px;
     margin: 0px 0px 10px;
-    height: 50px;
-    width: 400px;
+    height: 50px !important;
+    width: 400px !important;
     outline: 0;
-    padding: 0px;
 }
 form textarea{
     font: inherit;
-    border-bottom: solid black 1px;
     margin: 0px 0px 10px;
-    height: 100px;
-    width: 400px;
+    height: 100px !important;
+    width: 400px !important;
     outline: 0;
-    padding: 0px;
 }
 form input#checkbox{
-    height: unset;
-    width: unset;
-    border: unset;
+    height: unset !important;
+    width: unset !important;
+    border: unset !important;
     margin: 0px 0px 25px;
 }
 form label{
     font-size: 12px;
 }
 form button{
-    color: white;
-    padding: 0px;
-    background-color: black;
     height: 60px;
     width: 180px;
     font: inherit;

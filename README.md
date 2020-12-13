@@ -14,22 +14,16 @@ Natália
 Ruan
 
 ## Alterações Pedidas
-Para a sexta entrega do projeto, vocês deverão:
+Para a sétima entrega do projeto, vocês deverão:
 
 1) Corrigir qualquer problema das entregas anteriores apresenta pelos professores (Nenhuma alteração)
 
-2)
-2.1) Usar o javascript para validar os dados do formulário, antes de enviar o formulário para o servidor (Feito na página de Contato);
-2.2) Usar o javascript para criar algum tipo de "animação" nas páginas Html. Por animação entenda (Realizada na página Quartos, onde o texto da imagem tem sua opacidade alterada.):
-- esconder ou mostar um elemento HTML;
-- alterar as propriedades (estilos) dos elementos HTML;
-- alterar o conteúdo dos elementos HTML;
-- alterar uma imagem ou links
-- emitir mensagens através de caixas de diáglogo;
-As animações devem ser disparadas quando algum evento acontecer, ou seja, quando alguma ação for iniciada ou realizada pelo usuário, como por exemplo:
-- Carregar ou sair da página;
-- Clicar em algo (imagem, link, elemento html);
-- Passar o imagem por cima de algum elemento;
-- Pressionar determinada tecla;
-- etc.
+2) Atualizar pelo menos três páginas do projeto para utilizar o framework bootstrap. Essa atualização deve:
+2.1) Utilizar o sistema de grid do bootstrap, mantendo a página responsiva para exibição em pelo dois dispositivos com telas de tamanhos diferentes
+2.2) Utilizar pelo menos três componentes diferentes do bootstrap nessas páginas:
+- Os componentes estilizados com Bootstrap foram estão todos no form da página "Contato" e foram:
+    - Input;
+    - Textarea;
+    - Button.
+    
 
